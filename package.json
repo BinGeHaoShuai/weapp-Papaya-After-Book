@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@vant/weapp": "^1.10.16"
+  },
+  "name": "funny_pic",
+  "version": "1.0.0",
+  "description": "a lot of funny pictures",
+  "main": "main.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "TangBin",
+  "license": "MIT"
+}
