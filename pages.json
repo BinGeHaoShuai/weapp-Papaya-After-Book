@@ -1,17 +1,71 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/bookshelf/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "木瓜追书"
+			}
+		},
+		{
+			"path": "pages/bookstore/index",
+			"style": {
+				"navigationBarTitleText": "书城"
+			}
+		},
+		{
+			"path": "pages/category/index",
+			"style": {
+				"navigationBarTitleText": "分类"
+			}
+		},
+		{
+			"path": "pages/my/index",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
+		"navigationBarTitleText": "木瓜追书",
 		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"backgroundColor": "#F8F8F8",
+		"usingComponents": {
+			"van-button": "/wxcomponents/weapp/dist/button/index",
+			"van-icon": "/wxcomponents/weapp/dist/icon/index",
+			"van-tabbar": "/wxcomponents/weapp/dist/tabbar/index",
+			"van-tabbar-item": "/wxcomponents/weapp/dist/tabbar-item/index",
+			"van-image": "/wxcomponents/weapp/dist/image/index"
+		}
+	},
+	"tabBar": {
+		"color": "#cfcfcf",
+		"selectedColor": "#000000",
+		"list": [{
+				"pagePath": "pages/bookshelf/index",
+				"text": "书架",
+				"iconPath": "static/tabbarIcon/bookshelf_icon.png",
+				"selectedIconPath": "static/tabbarIcon/bookshelf_selected_icon.png"
+			},
+			{
+				"pagePath": "pages/bookstore/index",
+				"text": "书城",
+				"iconPath": "static/tabbarIcon/home_icon.png",
+				"selectedIconPath": "static/tabbarIcon/home_selected_icon.png"
+			},
+			{
+				"pagePath": "pages/category/index",
+				"text": "分类",
+				"iconPath": "static/tabbarIcon/category_icon.png",
+				"selectedIconPath": "static/tabbarIcon/category_selected_icon.png"
+			},
+			{
+				"pagePath": "pages/my/index",
+				"text": "我的",
+				"iconPath": "static/tabbarIcon/my_icon.png",
+				"selectedIconPath": "static/tabbarIcon/my_selected_icon.png"
+			}
+		]
 	},
 	"uniIdRouter": {}
 }

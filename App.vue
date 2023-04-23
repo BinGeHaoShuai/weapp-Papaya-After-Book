@@ -8,13 +8,20 @@
 		},
 		onHide: function() {
 			console.log('App Hide')
-		},
-		globalData: {
-			version: '1.0.0'
 		}
 	}
 </script>
 
-<style>
+<style lang="scss">
+	// @import "/wxcomponents/weapp/dist/common/index.wxss";
 	/*每个页面公共css */
+
+	.v-content {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		width: 100vw;
+		height: 100vh;
+	}
 </style>

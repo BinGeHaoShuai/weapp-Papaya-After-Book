@@ -1,14 +1,13 @@
 {
-  "dependencies": {
-    "@vant/weapp": "^1.10.16"
-  },
-  "name": "funny_pic",
+  "name": "木瓜追书",
   "version": "1.0.0",
-  "description": "a lot of funny pictures",
+  "description": "free for read book",
   "main": "main.js",
-  "devDependencies": {},
   "scripts": {
     "test": "npm test"
+  },
+  "dependencies": {
+    "@vant/weapp": "^1.10.16"
   },
   "author": "TangBin",
   "license": "MIT"
